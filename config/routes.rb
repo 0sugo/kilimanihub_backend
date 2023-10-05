@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   # root "articles#index"
   namespace :api do
     namespace :v1 do
+      get 'user/index'
+      get 'user/show'
       resources :users, only: %i[index show] do
         resources :posts, only: %i[index show new create destroy] do
           resources :comments, only: %i[new create destroy]
