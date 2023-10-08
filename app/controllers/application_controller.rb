@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::API
-qwer
+qwe
 end
