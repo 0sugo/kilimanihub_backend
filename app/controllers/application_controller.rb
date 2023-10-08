@@ -1,3 +1,3 @@
 class ApplicationController < ActionController::API
-qwertyuio
+qwertyui
 end
