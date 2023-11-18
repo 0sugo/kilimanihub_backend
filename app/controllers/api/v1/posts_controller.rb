@@ -58,6 +58,10 @@ class Api::V1::PostsController < ApplicationController
     end
   end
 
+  def options
+    render plain: '', status: 204
+  end
+
   private
 
   def post_params
